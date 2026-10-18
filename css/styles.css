@@ -1,0 +1,61 @@
+/* ===== Variables: cambiás un color acá y se actualiza en toda la página ===== */
+:root {
+  --color-fondo: #0f172a;
+  --color-texto: #e2e8f0;
+  --color-acento: #38bdf8;
+  --ancho-maximo: 800px;
+}
+
+/* ===== Reset básico: evita sorpresas con márgenes y tamaños ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Estilo general de la página ===== */
+body {
+  font-family: system-ui, sans-serif; /* usa la tipografía nativa del dispositivo */
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* ===== Cabecera ===== */
+header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--color-acento);
+}
+
+/* ===== Contenido principal ===== */
+main {
+  max-width: var(--ancho-maximo); /* evita que el texto se estire en pantallas grandes */
+  margin: 0 auto;                 /* centra el bloque */
+  padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--color-acento);
+  padding-bottom: 0.5rem;
+}
+
+/* ===== Pie de página y links ===== */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+a {
+  color: var(--color-acento);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
