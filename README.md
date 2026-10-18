@@ -12,6 +12,11 @@ Sitio web personal donde presento mis proyectos de programación. Diseño respon
 - CSS3 (variables, diseño responsive)
 - GitHub Pages para el despliegue
 
+## ✅ Calidad
+
+Auditoría con Lighthouse: Performance 99, Accessibility 100, Best Practices 100, SEO 100.
+
+
 ## 📁 Estructura del proyecto
 
 ```
